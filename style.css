@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  /* DEBUG */
+  background-color: aquamarine;
+}
+.box {
+  width: 80%;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  /* DEBUG */
+  min-height: 40px;
+  background-color: coral;
+}
+
+.logo {
+  flex-basis: 25%;
+  align-self: center;
+  /* DEBUG */
+}
+
+.link {
+  flex-basis: 50%;
+  text-align: center;
+  align-self: center;
+  /* DEBUG */
+}
+
+.login {
+  flex-basis: 25%;
+  text-align: end;
+  align-self: center;
+  /* debug */
+}
+/* MAIN */
+.container_blu {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0 50px 0;
+  /* DEBUG */
+  min-height: 400px;
+  width: 100%;
+  background-color: darkblue;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0 50px 0;
+  /* DEBUG */
+  min-height: 450px;
+  width: 100%;
+}
+.rosa {
+  /* DEBUG */
+  background-color: palevioletred;
+
+  width: 70%;
+}
+.bianco {
+  background-color: white;
+}
+.grigio {
+  background-color: lightgray;
+}
+
+.pink-sky {
+  display: flex;
+  justify-content: center;
+  /* DEBUG */
+
+  width: 70%;
+}
+.pink {
+  /* DEBUG */
+  background-color: pink;
+  flex-basis: 60%;
+}
+
+.sky {
+  background-color: deepskyblue;
+  flex-basis: 40%;
+}
+.green {
+  /* debugg */
+  height: 500px;
+  width: 70%;
+  background-color: green;
+}
