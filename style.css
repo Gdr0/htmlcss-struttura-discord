@@ -24,24 +24,21 @@ header {
 .logo {
   flex-basis: 25%;
   align-self: center;
-  /* DEBUG */
 }
 
 .link {
   flex-basis: 50%;
   text-align: center;
   align-self: center;
-  /* DEBUG */
 }
 
 .login {
   flex-basis: 25%;
   text-align: end;
   align-self: center;
-  /* debug */
 }
-/* MAIN */
 
+/* MAIN */
 .container {
   display: flex;
   justify-content: center;
@@ -55,13 +52,13 @@ header {
   /* DEBUG */
   background-color: darkblue;
 }
-
 .rosa {
   /* DEBUG */
   background-color: palevioletred;
   width: 70%;
 }
 /* sezione 1 */
+
 /* sezione 2/4 */
 .bianco {
   /* DEBUG */
@@ -72,7 +69,6 @@ header {
   display: flex;
   justify-content: center;
   /* DEBUG */
-
   width: 70%;
 }
 .pink {
@@ -104,12 +100,12 @@ header {
 /* sezione 5 */
 
 /* FOOTER */
-#footer {
-  background-color: darkgrey;
-}
 /* sezione 1 */
 .sezione1 {
-  padding: 10px 0 30px 0;
+  padding: 10px 0 30px 20px;
+  background-color: darkslategrey;
+  border-bottom: solid white 1px;
+  /* BORDER */
   min-height: 400px;
 }
 
@@ -129,3 +125,20 @@ header {
   /* DEBUG */
   width: 100%;
 }
+/* sezione 2 */
+.sezione2 {
+  min-height: 5px;
+  background-color: darkslategrey;
+  padding: 10px 0 0 0;
+}
+
+.fine {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* debug */
+  background-color: cyan;
+  width: 70%;
+  min-height: 40px;
+}
+/* sezione 2 */
